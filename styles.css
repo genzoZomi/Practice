@@ -1,0 +1,40 @@
+body {
+    background-color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(27, 197, 27);
+    border-radius: 500px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#number { position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(-50%);
+    transform: translateX(50%);
+}
+   
+
+.btn {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
